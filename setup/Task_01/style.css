@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 10px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+}
+
+.box:hover {
+	cursor: pointer;
+}
+
+.box1 {
+	background: yellow;
+}
+
+.box2 {
+	background: rgb(0, 200, 100);
+}
+
+.box3 {
+	background: black;
+	color: white;
+}
+
+.box4 {
+	background: purple;
+	color: white;
+}

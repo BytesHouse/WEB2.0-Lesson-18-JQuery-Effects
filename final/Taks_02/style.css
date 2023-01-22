@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 10px;
+}
+
+.panel {
+	background: rgb(100, 100, 100);
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	font-family: sans-serif;
+	border-radius: 5px;
+}
+
+.notification {
+	background: rgb(150, 150, 150);
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 5px;
+}

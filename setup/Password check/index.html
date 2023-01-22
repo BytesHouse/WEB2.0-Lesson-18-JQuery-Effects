@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Проверка пароля</h1>
+		<form>
+			<ul>
+				<li>
+					<label>Login:</label>
+					<input id="username" name="username" type="text">
+				</li>
+				<li>
+					<label>Password:</label>
+					<input id="pswd" type="password" name="pswd">
+					<p class="mistake" id="letter">Password has no letters</p>
+					<p class="mistake" id="Uletter">Password has no capital letters</p>
+					<p class="mistake" id="digit">Password has no digits</p>
+					<p class="mistake" id="length">Password less than 8 characters</p>
+				</li>
+				<li id="for_button">
+					<input type="submit" id="submit" value="Submit">
+				</li>
+			</ul>
+		</form>
+		<div id="pswd_info">
+			<h4>The password must match the criterias:</h4>
+			<ul>
+				<li id="letter">At least <strong>one letter</strong></li>
+				<li id="capital">At least <strong>one capital letter</strong></li>
+				<li id="number">At least <strong>one digit</strong></li>
+				<li id="length">Be more than <strong>8 characters</strong></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
